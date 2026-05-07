@@ -1,16 +1,35 @@
-## Hi there 👋
+# Hey, I'm @allanjoshuaf 👋
 
-<!--
-**allanjoshuaf/allanjoshuaf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Network & security practitioner operating in high-censorship environments.
+I build, break, and debug real infrastructure — not tutorials.
 
-Here are some ideas to get you started:
+## What I actually do
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **DPI evasion & tunneling** — VLESS + XTLS-Vision + Reality, 
+  steal-oneself architecture, Caddy masquerade server
+- **Routing & DNS** — FakeIP, DoH, per-app and ruleset-based 
+  traffic splitting
+- **OpenWrt** — GL.iNet AX1800 on qualcommax/ipq60xx SNAPSHOT, AmneziaWG, kernel 6.12
+- **Asus Merlin** — dual-router setup, policy routing
+- **Sing-box** — full stack: client config, server config, 
+  automatic startup via NSSM on Windows
+- **Web & data** — Node.js, Express, HTML/CSS/JS, 
+  MongoDB, MySQL, SQLite
+
+## Stack
+
+```
+Network    Sing-box · OpenWrt · Caddy · NSSM
+Protocols  VLESS · XTLS-Vision · Reality · WireGuard · DoH
+Dev        Node.js · Express · HTML · CSS · JavaScript · MongoDB · SQLite · MySQL
+OS         Linux (OpenWrt SNAPSHOT) · Windows
+```
+
+## Repos worth looking at
+
+- [`netDiag`](https://github.com/allanjoshuaf/netDiag) — 
+  Network diagnostic toolkit. No analytics, no tracking, 
+  no build step. Runs anywhere.
+---
+
+*Building real things under real constraints.*
