@@ -24,6 +24,9 @@ OS         Linux (OpenWrt SNAPSHOT) · Windows
 
 ## Repos worth looking at
 
+- [`singbox-configs`](https://github.com/allanjoshuaf/singbox-configs) —
+  Production VLESS + Reality + steal-oneself stack; client, server, 
+  Caddy masquerade and 40-day log analysis.
 - [`netDiag`](https://github.com/allanjoshuaf/netDiag) - 
   Network diagnostic toolkit. No analytics, no tracking, no build step. Runs anywhere.
 ---
