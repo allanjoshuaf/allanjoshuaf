@@ -1,34 +1,48 @@
 # Hey, I'm @allanjoshuaf 👋
 
-Network & security practitioner operating in high-censorship environments.
-I build, break, and debug real infrastructure - not tutorials.
+Network & infrastructure practitioner focused on VPN infrastructure,
+encrypted tunneling, routing and DNS.
 
-## What I actually do
+I build, break and debug real infrastructure; not tutorial environments.
 
-- **DPI evasion & tunneling** - VLESS + XTLS-Vision + Reality,
-  steal-oneself architecture, Caddy masquerade server
-- **Routing & DNS** - FakeIP, DoH, per-app and ruleset-based traffic splitting
-- **OpenWrt** - GL.iNet AX1800 on qualcommax/ipq60xx SNAPSHOT, AmneziaWG, kernel 6.12
-- **Asus Merlin** - dual-router setup, policy routing
-- **Sing-box** - full stack: client config, server config, automatic startup via NSSM on Windows
-- **Web & data** - Node.js, Express, HTML/CSS/JS, MongoDB, MySQL, SQLite
+## What I work on
+
+- **VPN infrastructure & encrypted tunneling** - VLESS + XTLS-Vision + Reality,
+  self-hosted reverse proxy architecture, Caddy TLS masquerade
+- **Routing & DNS** - FakeIP, DNS-over-HTTPS, per-application routing,
+  ruleset-based traffic engineering
+- **OpenWrt networking** - GL.iNet AX1800 (qualcommax/ipq60xx SNAPSHOT),
+  AmneziaWG, kernel 6.12
+- **Router infrastructure** - dual-router Asus Merlin + OpenWrt setup,
+  policy routing, traffic segmentation
+- **Sing-box infrastructure** - client/server deployment, routing policies,
+  automated Windows startup via NSSM
+- **Troubleshooting & analysis** - protocol-level diagnostics, DNS behavior,
+  routing conflicts, TLS handshake analysis, production log analysis
+- **Development background** - Node.js, Express, REST APIs,
+  MongoDB, PostgreSQL, MySQL, SQLite
 
 ## Stack
 
 ```
-Network    Sing-box · OpenWrt · Caddy · NSSM
-Protocols  VLESS · XTLS-Vision · Reality · WireGuard · DoH
-Dev        Node.js · Express · HTML · CSS · JavaScript · MongoDB · SQLite · MySQL
-OS         Linux (OpenWrt SNAPSHOT) · Windows
+Infrastructure  OpenWrt · Asus Merlin · Sing-box · Caddy · NSSM
+Networking      VPN · Routing · DNS · TLS · WireGuard · DoH · Traffic Analysis
+Protocols       VLESS · XTLS-Vision · Reality
+Backend         Node.js · Express · REST API
+Databases       PostgreSQL · MySQL · MongoDB · SQLite
+OS              OpenWrt · Linux · Windows
 ```
 
-## Repos worth looking at
+## Repositories worth exploring
 
-- [`singbox-configs`](https://github.com/allanjoshuaf/singbox-configs) —
-  Production VLESS + Reality + steal-oneself stack; client, server, 
-  Caddy masquerade and 40-day log analysis.
+- [`singbox-configs`](https://github.com/allanjoshuaf/singbox-configs) - 
+  Production VPN and tunneling infrastructure; client/server configurations,
+  Caddy masquerade, routing policies and 40-day log analysis.
+
 - [`netDiag`](https://github.com/allanjoshuaf/netDiag) - 
-  Network diagnostic toolkit. No analytics, no tracking, no build step. Runs anywhere.
+  Lightweight browser-based network diagnostic toolkit focused on
+  connectivity, request inspection and network behavior analysis.
+
 ---
 
-*Building real things under real constraints.*
+*Building reliable infrastructure under real-world constraints.*
