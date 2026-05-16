@@ -1,47 +1,43 @@
-# Hey, I'm @allanjoshuaf 👋
+# Hey, I'm Al 👋
 
-Network & infrastructure practitioner focused on VPN infrastructure,
-encrypted tunneling, routing and DNS.
-
-I build, break and debug real infrastructure; not tutorial environments.
+Network & Infrastructure Engineer - VPN, encrypted tunneling, routing and DNS.
+I build, break and debug real infrastructure. Not tutorial environments.
 
 ## What I work on
 
-- **VPN infrastructure & encrypted tunneling** - VLESS + XTLS-Vision + Reality,
-  self-hosted reverse proxy architecture, Caddy TLS masquerade
-- **Routing & DNS** - FakeIP, DNS-over-HTTPS, per-application routing,
-  ruleset-based traffic engineering
-- **OpenWrt networking** - GL.iNet AX1800 (qualcommax/ipq60xx SNAPSHOT),
-  AmneziaWG, kernel 6.12
-- **Router infrastructure** - dual-router Asus Merlin + OpenWrt setup,
-  policy routing, traffic segmentation
-- **Sing-box infrastructure** - client/server deployment, routing policies,
-  automated Windows startup via NSSM
-- **Troubleshooting & analysis** - protocol-level diagnostics, DNS behavior,
-  routing conflicts, TLS handshake analysis, production log analysis
-- **Development background** - Node.js, Express, REST APIs,
-  MongoDB, PostgreSQL, MySQL, SQLite
+- **Encrypted tunneling & DPI evasion** ; VLESS + XTLS-Vision + Reality,
+  steal-oneself architecture, Caddy masquerade, sing-box client/server,
+  AmneziaWG, automated deployment via NSSM
+- **Routing & DNS** ; FakeIP, DNS-over-HTTPS, per-application routing,
+  ruleset-based traffic engineering, policy routing, traffic segmentation
+- **Embedded networking** ; OpenWrt SNAPSHOT (qualcommax/ipq60xx, kernel 6.12),
+  dual-router setup (Asus Merlin + GL.iNet AX1800)
+- **Diagnostics & analysis** ; protocol-level troubleshooting, DNS behavior,
+  TLS handshake analysis, routing conflicts, production log analysis
+- **Development** ; Node.js, Express, REST APIs, PostgreSQL, MongoDB, SQLite
 
 ## Stack
 
 ```
 Infrastructure  OpenWrt · Asus Merlin · Sing-box · Caddy · NSSM
-Networking      VPN · Routing · DNS · TLS · WireGuard · DoH · Traffic Analysis
-Protocols       VLESS · XTLS-Vision · Reality
+Protocols       VLESS · XTLS-Vision · Reality · AmneziaWG · WireGuard · DoH
+Networking      Policy routing · Traffic segmentation · DNS · TLS · DPI evasion
 Backend         Node.js · Express · REST API
 Databases       PostgreSQL · MySQL · MongoDB · SQLite
-OS              OpenWrt · Linux · Windows
+OS              OpenWrt · Windows
 ```
 
 ## Repositories worth exploring
 
 - [`singbox-configs`](https://github.com/allanjoshuaf/singbox-configs) - 
-  Production VPN and tunneling infrastructure; client/server configurations,
-  Caddy masquerade, routing policies and 40-day log analysis.
+  VLESS + XTLS-Vision + Reality + steal-oneself - server/client configs, 
+  Caddy masquerade, FakeIP DNS. Deployed and tested under active DPI censorship..
 
 - [`netDiag`](https://github.com/allanjoshuaf/netDiag) - 
-  Lightweight browser-based network diagnostic toolkit focused on
-  connectivity, request inspection and network behavior analysis.
+  Browser-based diagnostic toolkit to verify proxy and VPN setups ;
+  WebRTC leak, DNS probe, TLS check, privacy score. Built as a
+  camouflage site template for VLESS Reality / steal_oneself deployments.
+  Zero frameworks. Caddy backend.
 
 ---
 
