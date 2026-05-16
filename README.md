@@ -43,7 +43,7 @@ OS              OpenWrt · Windows
 
 ## Open Source
 
-**[SagerNet/sing-box](https://github.com/SagerNet/sing-box/pull/4121)** - PR open · 33.6k ★  
+**[SagerNet/sing-box](https://github.com/SagerNet/sing-box/pull/4142)** - PR open · 33.6k ★  
 Implemented fix for a Zip Slip path traversal vulnerability in `downloadZIP()`.  
 Path containment validation via `filepath.Clean` + regression test - ref. issue #4117.
 
