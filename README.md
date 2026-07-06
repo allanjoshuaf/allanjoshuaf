@@ -58,10 +58,4 @@ Backend exposure: Node.js, Express, REST APIs, PostgreSQL, MongoDB, SQLite.
 
 I use this mainly to build network tooling, diagnostic frontends, APIs, dashboards, and deployment utilities.
 
-## Open Source
-
-**[SagerNet/sing-box](https://github.com/SagerNet/sing-box/pull/4142)** - PR open · 33.6k ★  
-Implemented fix for a Zip Slip path traversal vulnerability in `downloadZIP()`.  
-Path containment validation via `filepath.Clean` + regression test - ref. issue #4117.
-
 *Building reliable infrastructure under real-world constraints.*
